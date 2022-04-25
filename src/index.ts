@@ -1,3 +1,3 @@
-import { startApplication } from "./application.js";
+import { startApplication } from "./application";
 
 startApplication();
