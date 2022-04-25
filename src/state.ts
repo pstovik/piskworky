@@ -6,6 +6,6 @@
 // interface IField {}
 
 export enum GameSymbol {
-    X,
-    O,
+    X = "X",
+    O = "O",
 }

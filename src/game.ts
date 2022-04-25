@@ -1,9 +1,16 @@
 import { GameSymbol } from "./state";
 
+interface ICoordinates {
+    x: number;
+    y: number;
+}
+
 export class Game {
-    nextPlayerSymbol: GameSymbol;
+    currentPlayer: GameSymbol;
 
     constructor() {
-        this.nextPlayerSymbol = GameSymbol.O;
+        this.currentPlayer = GameSymbol.X;
     }
+
+    currentPlayerPutSymbol(_param: ICoordinates) {}
 }
