@@ -4,7 +4,7 @@
   "description": "workshop 2022-04-25 quadient",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cd spec && jasmine-ts --config=jasmine.json",
     "start": "cd dist && static-server",
     "compile": "tsc -p .",
     "watch": "tsc -p . --watch",
@@ -25,6 +25,9 @@
     "static-server": "^2.2.1"
   },
   "devDependencies": {
-    "typescript": "^4.6.3"
+    "jasmine": "^3.5.0",
+    "jasmine-ts": "^0.4.0",
+    "typescript": "^4.6.3",
+    "@types/jasmine": "^3.5.9"
   }
 }
