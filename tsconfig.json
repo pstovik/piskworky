@@ -10,7 +10,7 @@
         "forceConsistentCasingInFileNames": true,
         "jsx": "react",
         "lib": ["es2019", "dom"],
-        "module": "commonjs",
+        "module": "ESNext",
         "noEmitHelpers": true,
         "noFallthroughCasesInSwitch": true,
         "noImplicitReturns": true,
@@ -22,8 +22,7 @@
         "skipDefaultLibCheck": true,
         "sourceMap": true,
         "strict": true,
-        "target": "es2019",
-        "resolveJsonModule": true
+        "target": "es2019"
     },
     "include": ["**/*"]
 }

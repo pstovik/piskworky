@@ -1,5 +1,3 @@
-start();
-console.log("hello");
-function start() {
-    document.body.innerHTML = "Hello from Typescript";
-}
+import { startApplication } from "./application.js";
+
+startApplication();
