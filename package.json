@@ -1,0 +1,23 @@
+{
+  "name": "piskworky",
+  "version": "0.0.1",
+  "description": "workshop 2022-04-25 quadient",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd dist && static-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pstovik/piskworky.git"
+  },
+  "author": "p.stovik@quadient.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pstovik/piskworky/issues"
+  },
+  "homepage": "https://github.com/pstovik/piskworky#readme",
+  "dependencies": {
+    "static-server": "^2.2.1"
+  }
+}
